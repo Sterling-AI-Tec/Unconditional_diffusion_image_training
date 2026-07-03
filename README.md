@@ -11,7 +11,7 @@ What i have Edited and removed Notabley is the Augmentation Switching that will 
 
 # How training works
 Here we set up our diffusion model. Diffusion models are neural networks that are trained to predict slightly less noisy images from a noisy input. At inference, they can be used to iteratively transform a random noise to generate an image:
-![image](https://user-images.githubusercontent.com/10695622/174349667-04e9e485-793b-429a-affe-096e8199ad5b.png)
+![image]([https://user-images.githubusercontent.com/10695622/174349667-04e9e485-793b-429a-affe-096e8199ad5b.png])
 Figure from DDPM paper (https://arxiv.org/abs/2006.11239). 
 
 Don't worry too much about the math if you're not familiar with it, the import part to remember is that our model corresponds to the arrow pθ(xt−1|xt) (which is a fancy way of saying: predict a slightly less noisy image).
