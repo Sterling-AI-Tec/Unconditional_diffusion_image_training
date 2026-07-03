@@ -37,3 +37,5 @@ In a nutshell:
 A key feature of this model is that it predicts images of the same size as the input, which is exactly what we need here.
 
 Diffusers provides us a handy UNet2DModel class which creates the desired architecture in PyTorch.
+
+i give up on trying to make images work in github md
